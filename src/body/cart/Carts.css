@@ -1,0 +1,98 @@
+.cartDiv {
+    display: flex;
+    height: 427px;
+    flex-direction: column;
+    box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26);
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.cartHeader {
+    /* height: 16%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+    border-bottom: 1px solid #EBECF0;
+    z-index: 2;
+}
+
+.cartHeader-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.cartBody {
+    /* height: 56%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin-top: -2rem;
+}
+
+.carBodyInfo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: -2rem;
+    font-size: 14px;
+   
+}
+
+.carBodyInfoSpan {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.carBodyInfo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.cartFooter {
+    padding: 8px;
+    
+}
+
+.cartTitle {
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.noData {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #515A6E;
+}
+
+.statusStyle1 {
+    background: #ECFFF5;
+}
+
+.statusStyle2 {
+    background: #FEF1F0;
+}
+
+.statusStyleBody1 {
+    background: #CDFFE5;
+}
+
+.statusStyleBody2 {
+    background: #FFCBC8;
+}
+
+.cartFooterLine {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 2px solid #EBECF0;
+    margin-top: -13px;
+}
